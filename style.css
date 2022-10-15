@@ -1,0 +1,84 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+    }
+
+    .container{
+    display: flex;
+    width: 500px;
+    padding: 30px;
+    margin: 10vh auto 0 auto;
+    align-content: center;
+    }
+
+    .image{
+        display: inline-block;
+        width: 55%;
+        height: 55%;
+        border-end-start-radius: 10px;
+        border-start-start-radius: 10px;
+         }
+    
+    .product-discription{
+        display: inline-block;
+        width: 55%;
+        padding: 10px 40px;
+        border-start-end-radius: 10px;
+        border-end-end-radius: 10px; 
+        background-color: hsl(0, 0%, 100%);
+    }
+        
+h1{
+    margin-top: 5px;
+}
+
+    p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-top: 12px;
+
+     }
+
+    .perfume{
+        letter-spacing: 3px;
+     }
+
+
+    .price{
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        margin-top: -6px;
+    }
+
+    .amount1{
+        color: hsl(158, 36%, 37%);
+        margin: 0px;
+    }
+
+    .amount2{
+        margin: 0px;
+        text-decoration: line-through;
+    }
+
+    button{
+        border-radius: 5px;
+        background-color:hsl(158, 36%, 37%);
+        font-size: 12px;
+        font-weight: 600;
+        padding: 12px 30px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .cart-icon{
+        width: 12px;
+        height: 12px;
+        margin-right:5px;
+        }
+
+    
