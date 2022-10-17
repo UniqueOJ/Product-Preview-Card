@@ -1,6 +1,11 @@
 body{
     background-color: hsl(30, 38%, 92%);
     font-family: 'Fraunces', serif;
+    min-height: 100vh;
+    font-family: 'Fraunces', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 
     .container{
@@ -24,7 +29,7 @@ body{
         width: 55%;
         padding: 10px 40px;
         border-start-end-radius: 10px;
-        border-end-end-radius: 10px; 
+        border-end-end-radius: 10px;
         background-color: hsl(0, 0%, 100%);
     }
         
@@ -81,4 +86,4 @@ h1{
         margin-right:5px;
         }
 
-    
+       
